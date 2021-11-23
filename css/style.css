@@ -201,3 +201,15 @@ button:hover .button-text {
 .hidden {
   display: none;
 }
+
+@media only screen and (max-width: 480px) {
+  .btn-div {
+    position: absolute;
+    margin-bottom: 20px;
+  }
+
+  button.learn-more .circle {
+    display: block;
+    width: 100%;
+  }
+}
